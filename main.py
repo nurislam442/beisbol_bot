@@ -8,7 +8,7 @@ async def on_startup(_):
     for i in Admins:
         await bot.send_message(chat_id=i, text='бот активирован!')
         # id = -1002407711468
-        # await bot.send_message(chat_id=id, text='динаху')
+        # await bot.send_message(chat_id=id, text='ты дебил')
 async def on_shutdown(_):
     for i in Admins:
         await bot.send_message(chat_id=i, text="бот выключен")
